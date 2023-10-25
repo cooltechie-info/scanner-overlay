@@ -1,0 +1,31 @@
+name: scanner_overlay
+description: A Flutter package which will help you to overlay borders on the camera widget, highly customizable and flexible.
+version: 0.0.1
+repository: https://github.com/cooltechie-info/scanner-overlay
+screenshots:
+  - description: 'Screenshots of scanner_overlay widget'
+    path: example/assets/scanner_overlay.png
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+ 
+flutter:
+ 
+topics:
+  - scanner-shape
+  - scanner-ui
+  - scanner-widget
+  - scanner-overlay
+  - scanner-borders
+  - flutter-scanner
+  - camera-border
