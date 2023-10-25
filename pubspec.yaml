@@ -23,9 +23,7 @@ flutter:
  
 topics:
   - scanner-shape
-  - scanner-ui
   - scanner-widget
   - scanner-overlay
   - scanner-borders
-  - flutter-scanner
   - camera-border

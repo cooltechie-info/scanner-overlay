@@ -2,10 +2,6 @@
 
 A Flutter package which will help you to overlay borders on the camera or scanner widget, highly customizable and flexible.
 
-## Screenshots
-
-<img src="https://github.com/cooltechie-info/scanner-overlay/blob/master/example/assets/scanner_overlay.png?raw=true" width="200">
-
 ## Features
 
 - Highly customizable
