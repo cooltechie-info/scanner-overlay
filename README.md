@@ -1,4 +1,4 @@
-[![pub package](https://img.shields.io/badge/pub-0.0.1-blue.svg)](https://pub.dev/packages/scanner_overlay)
+[![pub package](https://img.shields.io/badge/pub-0.0.2-blue.svg)](https://pub.dev/packages/scanner_overlay)
 
 A Flutter package which will help you to overlay borders on the camera or scanner widget, highly customizable and flexible.
 
@@ -12,7 +12,7 @@ A Flutter package which will help you to overlay borders on the camera or scanne
 1. Add the dependency.
 
 ```yml
-scanner_overlay: *latest-version*;
+scanner_overlay: ^0.0.2;
 ```
 
 2. Import the package.
@@ -24,7 +24,15 @@ import 'package:scanner_overlay/scanner_overlay.dart';
 3. Use the widget in your code.
 
 ```Dart
-ScannerOverlay(height: 300, width: 300),
+ScannerOverlay(
+    height: 300, 
+    width: 300,
+
+    /// Additional Parameters
+    borderColor: Colors.amber,
+    borderRadius: 20,
+    borderThickness: 5,
+    )
 ```
 
 ## Usage
